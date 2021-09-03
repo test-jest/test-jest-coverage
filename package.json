@@ -1,0 +1,45 @@
+{
+  "name": "test-jest-coverage",
+  "version": "1.0.0",
+  "description": "Test jest coverage",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mughees-asif/test-jest-coverage.git"
+  },
+  "author": "Mughees",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mughees-asif/test-jest-coverage/issues"
+  },
+  "jest": {
+    "displayName": "debug-engine",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/?(*.)+(spec|test).+(ts|tsx)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "strict": true,
+        "downlevelIteration": true,
+        "noImplicitReturns": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": true,
+        "declaration": true,
+        "jsx": "react"
+    }
+}
