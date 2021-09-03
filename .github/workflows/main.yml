@@ -3,12 +3,7 @@ on:
     pull_request:
         branches:
             - master
-            - main
-            
-permissions:
-  actions: read
-  pull-requests: write
-  
+            - main  
 jobs:
     coverage:
         runs-on: ubuntu-latest
