@@ -1,0 +1,54 @@
+{
+    "total": {
+        "lines": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "statements": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "functions": {
+            "total": 4,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 25
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "C:\\Users\\mugasi01\\test-jest-coverage\\math-functions.ts": {
+        "lines": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "functions": {
+            "total": 4,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 25
+        },
+        "statements": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    }
+}
