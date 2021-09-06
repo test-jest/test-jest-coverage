@@ -7,7 +7,3 @@ test('adds 1 + 2 to equal 3', () => {
 test('subtracts 1 - 2 to equal -1', () => {
   expect(minus(1, 2)).toBe(1);
 });
-
-test('subtracts 1 - 2 to equal -1', () => {
-  expect(divide(10, 5)).toBe(2);
-});
