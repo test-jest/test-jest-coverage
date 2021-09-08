@@ -5,9 +5,13 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 test('subtracts 1 - 2 to equal -1', () => {
-  expect(minus(1, 2)).toBe(1);
+  expect(minus(1, 2)).toBe(-1);
 });
 
-test('subtracts 1 - 2 to equal -1', () => {
+test('divide 20/5 to equal 2', () => {
+  expect(divide(20, 5)).toBe(4);
+});
+
+test('divide 10/5 to equal 2', () => {
   expect(divide(10, 5)).toBe(2);
 });
