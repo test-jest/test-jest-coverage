@@ -11,6 +11,8 @@ jobs:
         steps:
             - uses: actions/checkout@v1
             - uses: artiomtr/jest-coverage-report-action@v2.0-rc.1
+              env:
+                    JEST_COVERAGE_TOKEN: ${{ secrets.JEST_COVERAGE_TOKEN }}
               with:
                     github-token: ${{ secrets.JEST_COVERAGE_TOKEN }}
                   #   threshold: 80 # optional parameter
